@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="https://bemach1.com.br/html-aula-forms/cadastroRecruta.php" method="post" enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label>
+                Seu nome:
+                <input type="text" placeholder="Nome" name="Nome">
+                <br><br>
+                Sobrenome:
+                <input type="text" placeholder="Sobrenome" name="sobren">
+                <br><br>
+                Idade:
+                <input type="text" placeholder="Idade" name="idade">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contatos</legend>
+
+            <label>
+                <input type="email" placeholder="seu.email@gmail.com" name="email">
+                <br><br>
+                <input type="tel" placeholder="(xx) x xxxx-xxxx" name="telefone">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <label>
+                <input type="text" placeholder="Rua" name="rua">
+                <br><br>
+                <input type="text" placeholder="Numero" name="casa_numero">
+                <br><br>
+                <input type="text" placeholder="Bairro" name="Bairro">
+                <br><br>
+                <select name="" id="">
+                    <option value="">Selecione sua região</option>
+                    <option value="ne">Nordeste</option>
+                    <option value="no">Norte</option>
+                    <option value="co">Centro Oeste</option>
+                    <option value="se">Sudeste</option>
+                    <option value="su">Sul</option>
+                    <option value="op">Outros paises</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Outras informações</legend>
+
+            <p>Mora sozinho ?</p>
+
+            <label>
+                <input type="radio" name="mora" value="Sozinho">
+                Sim
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="mora" value="acompanhado">
+                Não
+            </label>
+
+            <br><br>
+
+            <P>Tem eletrodomésticos</P>
+
+            <label>
+                <input type="checkbox" name="fogao" value="fogao">
+                Fogão
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="geladeira" value="geladeira">
+                Geladeira
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="TV" value="TV">
+                TV
+            </label>
+        </fieldset>
+        <br><br>
+        <input type="submit">
+        <input type="button" value="IB - Enviar">
+        <button>B - Enviar</button>
+    </form>
+</body>
+
+</html>
