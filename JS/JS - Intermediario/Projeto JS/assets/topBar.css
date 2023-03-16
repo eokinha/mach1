@@ -1,0 +1,32 @@
+.topBar {
+    width: 100%;
+    background-color: #0ACF83;
+
+}
+
+.topBarShadow {
+    width: 100%;
+    height: 34px;
+    background-color: #F3F6F9;
+
+}
+
+.topBarBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 56px;
+}
+
+.topBarButton {
+    display: flex;
+    gap: 70px;
+    margin-right: 40px;
+}
+
+.topBarButton>a,
+.topBarButton>span {
+    text-decoration: none;
+    color: #FFFFFF;
+}

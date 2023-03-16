@@ -1,0 +1,21 @@
+#expensiveBox {
+    width: 764px;
+    height: 611px;
+    margin-top: 100px;
+    margin-left: 257px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 465px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.inputBox {
+    
+}

@@ -4,43 +4,13 @@
     margin: 0;
 }
 
-.topBar {
-    width: 100%;
-    background-color: #0ACF83;
 
-}
-
-.topBarShadow {
-    width: 100%;
-    height: 34px;
-    background-color: #F3F6F9;
-
-}
-
-.topBarBox {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    height: 56px;
-}
-
-.topBarButton {
-    display: flex;
-    gap: 70px;
-    margin-right: 40px;
-}
-
-.topBarButton>a,
-.topBarButton>span {
-    text-decoration: none;
-    color: #FFFFFF;
-}
 
 .cardsBox {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 70px;
+    gap: 16px;
 }
 
 .cards {
@@ -108,13 +78,13 @@ th {
     box-sizing: border-box;
     border: none;
     border-bottom: 1px solid;
- 
+
 }
 
 #table {
     width: 960px;
     border-collapse: collapse;
-    position: relative;
+    /* position: relative; */
 
 }
 
@@ -153,6 +123,20 @@ th {
 }
 
 .filterBox {
-  /* position: absolute; */
-  left: 0;
+    margin-left: -390px;
+    margin-bottom: 15px;
+}
+
+.btn_expense {
+    height: 42px;
+    width: 199px;
+    border-radius: 4px;
+    background-color: #2196F3;
+    color: white;
+    border: 1px solid;
+}
+
+.expenseBox {
+    margin-top: 20px;
+    margin-right: -770px;
 }
