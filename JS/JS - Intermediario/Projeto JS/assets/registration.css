@@ -1,0 +1,24 @@
+.btnEdit {
+    height: 30px;
+    width: 66px;
+    border-radius: 4px;
+    background-color: #2196F3;
+    color: white;
+    border: 1px solid;
+    font-size: 15px;
+}
+
+.btnDelete {
+    height: 30px;
+    width: 66px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: red;
+    border: 1px solid;
+    font-size: 15px;
+}
+
+.btnActionBox {
+    display: flex;
+    gap: 15px;
+}
